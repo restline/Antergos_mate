@@ -1,0 +1,2 @@
+zsh /usr/share/zsh/functions/Newuser/zsh-newuser-install -f
+chsh -s /bin/bash
