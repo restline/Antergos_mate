@@ -1,0 +1,2 @@
+cd /home/thibaut/Téléchargements
+pacman -U fichier.tar.gz
