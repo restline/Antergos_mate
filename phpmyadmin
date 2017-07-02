@@ -1,0 +1,7 @@
+décommentez dans /etc/php/php.ini
+   extension=mysqli.so
+   extension=/usr/lib/php/modules/mysqli.so
+   
+puis pour le Allownopassword allez dans :
+/etc/webapps/phpmyadmin/config.inc.php
+et mettez à : Allownopassword : true à la place de false
