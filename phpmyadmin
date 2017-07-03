@@ -1,3 +1,5 @@
+si erreur 403
+
 décommentez dans /etc/php/php.ini
    extension=mysqli.so
    extension=/usr/lib/php/modules/mysqli.so
