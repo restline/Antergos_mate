@@ -21,3 +21,4 @@ options         root=PARTUUID=233f38c8-4023-4d57-aa95-5ecfe6e372b0 rw
 
 laissé bien options comme l'original
 même procéder pour tous les noyaux (lts etc...)
+et rédémmarer votre ordinateur puis démarer sur votre nouvelle entrée
