@@ -1,0 +1,23 @@
+par exemple si on veut avoir une entrée hardened.
+télécharger dabord linux-hardened
+
+dans le terminal 
+cd /boot/loader/entries
+ls puis sa affiche arch.conf
+ensuite :
+cp arch.conf arch-hardened.conf
+puis nano arch-hardened.conf
+et modifier
+title          Arch Linux
+linux          /vmlinuz-linux
+initrd         /initramfs-linux.img
+options         root=PARTUUID=233f38c8-4023-4d57-aa95-5ecfe6e372b0 rw
+
+en sa :
+title          Arch Linux Hardened
+linux          /vmlinuz-linux-hardened
+initrd         /initramfs-linux-hardened.img
+options         root=PARTUUID=233f38c8-4023-4d57-aa95-5ecfe6e372b0 rw
+
+laissé bien options comme l'original
+même procéder pour tous les noyaux (lts etc...)
